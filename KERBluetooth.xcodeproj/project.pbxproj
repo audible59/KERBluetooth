@@ -11,6 +11,7 @@
 		389F3DF61E60FB5E0017C2E6 /* KERBluetoothTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389F3DF51E60FB5E0017C2E6 /* KERBluetoothTests.swift */; };
 		389F3DF81E60FB5E0017C2E6 /* KERBluetooth.h in Headers */ = {isa = PBXBuildFile; fileRef = 389F3DEA1E60FB5D0017C2E6 /* KERBluetooth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		389F3E031E60FB9D0017C2E6 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389F3E021E60FB9D0017C2E6 /* CoreBluetooth.framework */; };
+		389F3E051E60FE760017C2E6 /* KERBluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389F3E041E60FE760017C2E6 /* KERBluetoothManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +32,7 @@
 		389F3DF51E60FB5E0017C2E6 /* KERBluetoothTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KERBluetoothTests.swift; sourceTree = "<group>"; };
 		389F3DF71E60FB5E0017C2E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		389F3E021E60FB9D0017C2E6 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		389F3E041E60FE760017C2E6 /* KERBluetoothManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KERBluetoothManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				389F3DEA1E60FB5D0017C2E6 /* KERBluetooth.h */,
 				389F3DEB1E60FB5D0017C2E6 /* Info.plist */,
+				389F3E041E60FE760017C2E6 /* KERBluetoothManager.swift */,
 			);
 			path = KERBluetooth;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				TargetAttributes = {
 					389F3DE61E60FB5B0017C2E6 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					389F3DEF1E60FB5E0017C2E6 = {
@@ -208,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				389F3E051E60FE760017C2E6 /* KERBluetoothManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,6 +337,7 @@
 		389F3DFC1E60FB5E0017C2E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -344,6 +350,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.quivercoding.www.KERBluetooth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -351,6 +358,7 @@
 		389F3DFD1E60FB5E0017C2E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -370,6 +378,7 @@
 		389F3DFF1E60FB5E0017C2E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = KERBluetoothTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quivercoding.www.KERBluetoothTests;
@@ -381,6 +390,7 @@
 		389F3E001E60FB5E0017C2E6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = KERBluetoothTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.quivercoding.www.KERBluetoothTests;
@@ -408,6 +418,7 @@
 				389F3DFD1E60FB5E0017C2E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		389F3DFE1E60FB5E0017C2E6 /* Build configuration list for PBXNativeTarget "KERBluetoothTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +427,7 @@
 				389F3E001E60FB5E0017C2E6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
