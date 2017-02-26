@@ -12,6 +12,7 @@
 		389F3DF81E60FB5E0017C2E6 /* KERBluetooth.h in Headers */ = {isa = PBXBuildFile; fileRef = 389F3DEA1E60FB5D0017C2E6 /* KERBluetooth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		389F3E031E60FB9D0017C2E6 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 389F3E021E60FB9D0017C2E6 /* CoreBluetooth.framework */; };
 		389F3E051E60FE760017C2E6 /* KERBluetoothManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389F3E041E60FE760017C2E6 /* KERBluetoothManager.swift */; };
+		389F3E521E6258720017C2E6 /* DiscoverService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389F3E511E6258720017C2E6 /* DiscoverService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,7 @@
 		389F3DF71E60FB5E0017C2E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		389F3E021E60FB9D0017C2E6 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		389F3E041E60FE760017C2E6 /* KERBluetoothManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KERBluetoothManager.swift; sourceTree = "<group>"; };
+		389F3E511E6258720017C2E6 /* DiscoverService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				389F3DEB1E60FB5D0017C2E6 /* Info.plist */,
 				389F3DEA1E60FB5D0017C2E6 /* KERBluetooth.h */,
 				389F3E041E60FE760017C2E6 /* KERBluetoothManager.swift */,
+				389F3E511E6258720017C2E6 /* DiscoverService.swift */,
 			);
 			path = KERBluetooth;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				389F3E521E6258720017C2E6 /* DiscoverService.swift in Sources */,
 				389F3E051E60FE760017C2E6 /* KERBluetoothManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
