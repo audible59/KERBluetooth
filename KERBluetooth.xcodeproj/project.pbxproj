@@ -77,8 +77,8 @@
 		389F3DE91E60FB5D0017C2E6 /* KERBluetooth */ = {
 			isa = PBXGroup;
 			children = (
-				389F3DEA1E60FB5D0017C2E6 /* KERBluetooth.h */,
 				389F3DEB1E60FB5D0017C2E6 /* Info.plist */,
+				389F3DEA1E60FB5D0017C2E6 /* KERBluetooth.h */,
 				389F3E041E60FE760017C2E6 /* KERBluetoothManager.swift */,
 			);
 			path = KERBluetooth;
