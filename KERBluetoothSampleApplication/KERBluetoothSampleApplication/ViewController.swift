@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import KERBluetooth
+import KERBluetoothManager
 
 class ViewController: UIViewController {
     
