@@ -14,6 +14,8 @@
 		389F3E1D1E6250260017C2E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 389F3E1B1E6250260017C2E6 /* LaunchScreen.storyboard */; };
 		389F3E281E6250260017C2E6 /* KERBluetoothSampleApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389F3E271E6250260017C2E6 /* KERBluetoothSampleApplicationTests.swift */; };
 		389F3E331E6250260017C2E6 /* KERBluetoothSampleApplicationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 389F3E321E6250260017C2E6 /* KERBluetoothSampleApplicationUITests.swift */; };
+		38CCCAEA1E64CD480055B51D /* KERBluetoothManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38CCCAE91E64CD480055B51D /* KERBluetoothManager.framework */; };
+		38CCCAEB1E64CD480055B51D /* KERBluetoothManager.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38CCCAE91E64CD480055B51D /* KERBluetoothManager.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				38CCCAEB1E64CD480055B51D /* KERBluetoothManager.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,6 +64,7 @@
 		389F3E321E6250260017C2E6 /* KERBluetoothSampleApplicationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KERBluetoothSampleApplicationUITests.swift; sourceTree = "<group>"; };
 		389F3E341E6250260017C2E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38CCCAD91E64C84C0055B51D /* KERBluetoothManager.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = KERBluetoothManager.xcodeproj; path = ../../KERBluetoothManager/KERBluetoothManager.xcodeproj; sourceTree = "<group>"; };
+		38CCCAE91E64CD480055B51D /* KERBluetoothManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = KERBluetoothManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38CCCAEA1E64CD480055B51D /* KERBluetoothManager.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +96,7 @@
 		389F3E061E6250260017C2E6 = {
 			isa = PBXGroup;
 			children = (
+				38CCCAE91E64CD480055B51D /* KERBluetoothManager.framework */,
 				38CCCAD91E64C84C0055B51D /* KERBluetoothManager.xcodeproj */,
 				389F3E111E6250260017C2E6 /* KERBluetoothSampleApplication */,
 				389F3E261E6250260017C2E6 /* KERBluetoothSampleApplicationTests */,
