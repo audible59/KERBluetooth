@@ -19,6 +19,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		385C708F1E68945A005C8E36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38CCCAD91E64C84C0055B51D /* KERBluetoothManager.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 389F3DE71E60FB5D0017C2E6;
+			remoteInfo = KERBluetoothManager;
+		};
+		385C70911E68945A005C8E36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38CCCAD91E64C84C0055B51D /* KERBluetoothManager.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 389F3DF01E60FB5E0017C2E6;
+			remoteInfo = KERBluetoothManagerTests;
+		};
 		389F3E241E6250260017C2E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 389F3E071E6250260017C2E6 /* Project object */;
@@ -93,6 +107,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		385C708B1E68945A005C8E36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				385C70901E68945A005C8E36 /* KERBluetoothManager.framework */,
+				385C70921E68945A005C8E36 /* KERBluetoothManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		389F3E061E6250260017C2E6 = {
 			isa = PBXGroup;
 			children = (
@@ -265,6 +288,12 @@
 			mainGroup = 389F3E061E6250260017C2E6;
 			productRefGroup = 389F3E101E6250260017C2E6 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 385C708B1E68945A005C8E36 /* Products */;
+					ProjectRef = 38CCCAD91E64C84C0055B51D /* KERBluetoothManager.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				389F3E0E1E6250260017C2E6 /* KERBluetoothSampleApplication */,
@@ -273,6 +302,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		385C70901E68945A005C8E36 /* KERBluetoothManager.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = KERBluetoothManager.framework;
+			remoteRef = 385C708F1E68945A005C8E36 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		385C70921E68945A005C8E36 /* KERBluetoothManagerTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = KERBluetoothManagerTests.xctest;
+			remoteRef = 385C70911E68945A005C8E36 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		389F3E0D1E6250260017C2E6 /* Resources */ = {
